@@ -20,6 +20,7 @@ hi cFunction guifg=red
 
 "hi Constant        guifg=#ffff00
 ""hi Cursor          guifg=#010000 guibg=black
+hi CursorLine     guibg=#D3D7CF
 hi Debug           guifg=#BCA3A3               gui=bold
 hi Define          guifg=#66D9EF
 hi Delimiter       guifg=#8F8F8F
