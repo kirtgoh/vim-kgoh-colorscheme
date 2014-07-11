@@ -5,21 +5,21 @@ if exists("syntax_on")
 endi
 let g:colors_name = "kgoh"
 hi Normal guifg=black guibg=#B7E8BD
-hi Include guifg=#0000EC
+hi Include guifg=#0000FF
 hi Comment guifg=#008000
-hi Boolean         guifg=#0000EC
+hi Boolean         guifg=#0000FF
 hi Character       guifg=#A31555
 hi String          guifg=#A31555
-hi Exception       guifg=#0000EC
-hi Type  guifg=#0000EC
+hi Exception       guifg=#0000FF
+hi Type  guifg=#0000FF gui=NONE
 hi Identifier guifg=#880000
-hi Conditional     guifg=#0000EC
+hi Conditional     guifg=#0000FF
 hi Number          guifg=#ff0004
-hi Label           guifg=#0000EC gui=none
+hi Label           guifg=#0000FF gui=none
 
 hi Constant        guifg=#A000A0
 ""hi Cursor          guifg=#010000 guibg=black
-hi Statement       guifg=#0000EC
+hi Statement       guifg=#0000FF gui=NONE
 hi CursorLine     guibg=#D3D7CF
 hi Debug           guifg=#BCA3A3
 hi Define          guifg=#66D9EF
@@ -65,4 +65,4 @@ hi SpecialChar     guifg=#3664FF
 hi SpecialComment  guifg=#13c100
 hi Special         guifg=#66D9EF guibg=bg      gui=none
 hi SpecialKey      guifg=#888A85               gui=none
-"hi cCustomClass    guifg=#0000EC
+"hi cCustomClass    guifg=#0000FF
