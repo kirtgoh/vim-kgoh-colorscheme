@@ -22,8 +22,8 @@ hi Constant        guifg=#A000A0
 hi Statement       guifg=#0000FF gui=NONE
 hi CursorLine     guibg=#D3D7CF
 hi Debug           guifg=#BCA3A3
-hi Define          guifg=#66D9EF
-hi Delimiter       guifg=#8F8F8F
+hi Define          guifg=#0000FF
+hi Delimiter       guifg=#FF0000
 hi DiffAdd                       guibg=#13354A
 hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
@@ -63,6 +63,9 @@ hi Search          guifg=#FFFFFF guibg=#455354
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#3664FF
 hi SpecialComment  guifg=#13c100
-hi Special         guifg=#66D9EF guibg=bg      gui=none
+hi Special         guifg=#3664FF guibg=bg      gui=none
 hi SpecialKey      guifg=#888A85               gui=none
 "hi cCustomClass    guifg=#0000FF
+
+"PHP colorscheme
+hi phpRegion    guifg=#FF0000

@@ -5,25 +5,25 @@ if exists("syntax_on")
 endi
 let g:colors_name = "kgoh"
 highlight Normal guifg=black guibg=#b7e8bd ctermfg=16 ctermbg=151
-highlight Include guifg=#0000ec ctermfg=21
+highlight Include guifg=#0000ff ctermfg=21
 highlight Comment guifg=#008000 ctermfg=28
-highlight Boolean guifg=#0000ec ctermfg=21
+highlight Boolean guifg=#0000ff ctermfg=21
 highlight Character guifg=#a31555 ctermfg=125
 highlight String guifg=#a31555 ctermfg=125
-highlight Exception guifg=#0000ec ctermfg=21
-highlight Type guifg=#0000ec ctermfg=21
+highlight Exception guifg=#0000ff ctermfg=21
+highlight Type guifg=#0000ff gui=NONE ctermfg=21 cterm=NONE
 highlight Identifier guifg=#880000 ctermfg=88
-highlight Conditional guifg=#0000ec ctermfg=21
+highlight Conditional guifg=#0000ff ctermfg=21
 highlight Number guifg=#ff0004 ctermfg=196
-highlight Label guifg=#0000ec gui=NONE ctermfg=21 cterm=NONE
+highlight Label guifg=#0000ff gui=NONE ctermfg=21 cterm=NONE
 
 highlight Constant guifg=#a000a0 ctermfg=127
 ""hi Cursor          guifg=#010000 guibg=black
-highlight Statement guifg=#0000ec ctermfg=21
+highlight Statement guifg=#0000ff gui=NONE ctermfg=21 cterm=NONE
 highlight CursorLine guibg=#d3d7cf ctermbg=188 cterm=NONE
 highlight Debug guifg=#bca3a3 ctermfg=181
-highlight Define guifg=#66d9ef ctermfg=45
-highlight Delimiter guifg=#8f8f8f ctermfg=246
+highlight Define guifg=#0000ff ctermfg=21
+highlight Delimiter guifg=#ff0000 ctermfg=196
 highlight DiffAdd guibg=#13354a ctermbg=236
 highlight DiffChange guifg=#89807d guibg=#4c4745 ctermfg=244 ctermbg=238
 highlight DiffDelete guifg=#960050 guibg=#1e0010 ctermfg=125 ctermbg=232
@@ -63,6 +63,9 @@ highlight Search guifg=#ffffff guibg=#455354 ctermfg=231 ctermbg=239
 highlight SignColumn guifg=#a6e22e guibg=#232526 ctermfg=112 ctermbg=235
 highlight SpecialChar guifg=#3664ff ctermfg=27
 highlight SpecialComment guifg=#13c100 ctermfg=34
-highlight Special guifg=#66d9ef guibg=bg gui=NONE ctermfg=45 cterm=NONE
+highlight Special guifg=#3664ff guibg=bg gui=NONE ctermfg=27 cterm=NONE
 highlight SpecialKey guifg=#888a85 gui=NONE ctermfg=245 cterm=NONE
-"hi cCustomClass    guifg=#0000EC
+"hi cCustomClass    guifg=#0000FF
+
+"PHP colorscheme
+hi phpRegion    guifg=#FF0000
