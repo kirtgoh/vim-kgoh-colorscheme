@@ -29,7 +29,7 @@ hi DiffChange      guifg=#89807D guibg=#4C4745
 hi DiffDelete      guifg=#960050 guibg=#1E0010
 hi DiffText                      guibg=#4C4745 gui=italic
 
-hi Directory       guifg=#A6E22E
+hi Directory       guifg=#0000FF
 hi Error           guifg=#960050 guibg=#1E0010
 hi ErrorMsg        guifg=#3664FF guibg=#232526
 hi Exception       guifg=#A6E22E
@@ -56,7 +56,7 @@ hi PmenuThumb      guifg=#66D9EF
 
 "hi PreCondit       guifg=#ff0004               gui=bold
 ""hi PreProc         guifg=#ff0004
-hi Question        guifg=#66D9EF
+hi Question        guifg=#FF0000 gui=NONE
 hi Repeat          guifg=#3664FF
 hi Search          guifg=#FFFFFF guibg=#455354
 "" marks column
@@ -66,6 +66,3 @@ hi SpecialComment  guifg=#13c100
 hi Special         guifg=#3664FF guibg=bg      gui=none
 hi SpecialKey      guifg=#888A85               gui=none
 "hi cCustomClass    guifg=#0000FF
-
-"PHP colorscheme
-hi phpRegion    guifg=#FF0000
