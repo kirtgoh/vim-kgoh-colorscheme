@@ -58,7 +58,7 @@ hi PmenuThumb      guifg=#66D9EF
 ""hi PreProc         guifg=#ff0004
 hi Question        guifg=#FF0000 gui=NONE
 hi Repeat          guifg=#3664FF
-hi Search          guifg=#FFFFFF guibg=#455354
+hi Search          guifg=#FF0000 guibg=#FFFF00
 "" marks column
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#3664FF
@@ -66,3 +66,8 @@ hi SpecialComment  guifg=#13c100
 hi Special         guifg=#3664FF guibg=bg      gui=none
 hi SpecialKey      guifg=#888A85               gui=none
 "hi cCustomClass    guifg=#0000FF
+
+" C/C++ colors scheme
+hi cDelimiter     guifg=#000000 ctermfg=black
+hi cOperator      guifg=#000000 ctermfg=black
+hi cBraces        guifg=#000000 ctermfg=black
