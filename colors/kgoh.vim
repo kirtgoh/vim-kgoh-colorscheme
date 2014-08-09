@@ -20,22 +20,24 @@ highlight Label guifg=#0000ff gui=NONE ctermfg=21 cterm=NONE
 highlight Constant guifg=#a000a0 ctermfg=127
 ""hi Cursor          guifg=#010000 guibg=black
 highlight Statement guifg=#0000ff gui=NONE ctermfg=21 cterm=NONE
-highlight CursorLine guibg=#d3d7cf ctermbg=188 cterm=NONE
+highlight CursorLine guibg=#ffffff ctermbg=231 cterm=NONE
+" hi CursorLine     guibg=#D3D7CF
 highlight Debug guifg=#bca3a3 ctermfg=181
 highlight Define guifg=#0000ff ctermfg=21
 highlight Delimiter guifg=#ff0000 ctermfg=196
-highlight DiffAdd guibg=#13354a ctermbg=236
-highlight DiffChange guifg=#89807d guibg=#4c4745 ctermfg=244 ctermbg=238
-highlight DiffDelete guifg=#960050 guibg=#1e0010 ctermfg=125 ctermbg=232
-highlight DiffText guibg=#4c4745 gui=italic ctermbg=238
+highlight DiffAdd guibg=#4e9a06 ctermbg=70
+highlight DiffChange guibg=#b7e8bd ctermbg=151
+" hi DiffChange                    guibg=#D3D7CF
+highlight DiffDelete guifg=#960050 guibg=#ff4c4c ctermfg=125 ctermbg=203
+highlight DiffText guibg=orange ctermbg=214
 
 highlight Directory guifg=#0000ff ctermfg=21
 highlight Error guifg=#960050 guibg=#1e0010 ctermfg=125 ctermbg=232
 highlight ErrorMsg guifg=#3664ff guibg=#232526 ctermfg=27 ctermbg=235
 highlight Exception guifg=#a6e22e ctermfg=112
 highlight Float guifg=#ffff00 ctermfg=226
-highlight FoldColumn guifg=#465457 guibg=#000000 ctermfg=239 ctermbg=16
-highlight Folded guifg=#465457 guibg=#000000 ctermfg=239 ctermbg=16
+highlight FoldColumn guifg=#ffff00 guibg=#000000 ctermfg=226 ctermbg=16
+highlight Folded guifg=#4e9a06 guibg=#465457 ctermfg=70 ctermbg=239
 highlight Ignore guifg=#808080 guibg=bg ctermfg=244
 highlight IncSearch guifg=#c4be89 guibg=#000000 ctermfg=144 ctermbg=16
 

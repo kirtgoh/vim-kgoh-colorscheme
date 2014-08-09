@@ -20,22 +20,24 @@ hi Label           guifg=#0000FF gui=none
 hi Constant        guifg=#A000A0
 ""hi Cursor          guifg=#010000 guibg=black
 hi Statement       guifg=#0000FF gui=NONE
-hi CursorLine     guibg=#D3D7CF
+" hi CursorLine     guibg=#D3D7CF
+hi CursorLine     guibg=#FFFFFF
 hi Debug           guifg=#BCA3A3
 hi Define          guifg=#0000FF
 hi Delimiter       guifg=#FF0000
-hi DiffAdd                       guibg=#13354A
-hi DiffChange      guifg=#89807D guibg=#4C4745
-hi DiffDelete      guifg=#960050 guibg=#1E0010
-hi DiffText                      guibg=#4C4745 gui=italic
+hi DiffAdd                       guibg=#4E9A06
+hi DiffChange                    guibg=#B7E8BD
+" hi DiffChange                    guibg=#D3D7CF
+hi DiffDelete      guifg=#960050 guibg=#ff4c4c
+hi DiffText                      guibg=orange
 
 hi Directory       guifg=#0000FF
 hi Error           guifg=#960050 guibg=#1E0010
 hi ErrorMsg        guifg=#3664FF guibg=#232526
 hi Exception       guifg=#A6E22E
 hi Float           guifg=#ffff00
-hi FoldColumn      guifg=#465457 guibg=#000000
-hi Folded          guifg=#465457 guibg=#000000
+hi FoldColumn      guifg=#ffff00 guibg=#000000
+hi Folded          guifg=#4E9A06 guibg=#465457
 hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
