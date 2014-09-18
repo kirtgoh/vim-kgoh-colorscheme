@@ -20,8 +20,8 @@ highlight Label guifg=#0000ff gui=NONE ctermfg=21 cterm=NONE
 highlight Constant guifg=#a000a0 ctermfg=127
 ""hi Cursor          guifg=#010000 guibg=black
 highlight Statement guifg=#0000ff gui=NONE ctermfg=21 cterm=NONE
-highlight CursorLine guibg=#ffffff ctermbg=231 cterm=NONE
 " hi CursorLine     guibg=#D3D7CF
+highlight CursorLine guibg=#dddddd ctermbg=253 cterm=NONE
 highlight Debug guifg=#bca3a3 ctermfg=181
 highlight Define guifg=#0000ff ctermfg=21
 highlight Delimiter guifg=#ff0000 ctermfg=196

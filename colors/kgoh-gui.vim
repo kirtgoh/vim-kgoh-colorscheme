@@ -21,7 +21,7 @@ hi Constant        guifg=#A000A0
 ""hi Cursor          guifg=#010000 guibg=black
 hi Statement       guifg=#0000FF gui=NONE
 " hi CursorLine     guibg=#D3D7CF
-hi CursorLine     guibg=#FFFFFF
+hi CursorLine     guibg=#DDDDDD
 hi Debug           guifg=#BCA3A3
 hi Define          guifg=#0000FF
 hi Delimiter       guifg=#FF0000
